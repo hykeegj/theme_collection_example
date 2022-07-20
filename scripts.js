@@ -86,4 +86,4 @@ window.addEventListener("scroll", () => {
 });
 
 // 버튼 페이드 아웃 기능 실행
-fadeOutDelay(2000);
+fadeOutDelay(fadeOutDelayTime);
