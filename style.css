@@ -1,0 +1,39 @@
+p {
+    border: 1px;
+    border-style: solid;
+}
+
+#title {
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+#contents {
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+/* 상단/하단 이동 스크롤 버튼 */
+/* TOP 버튼 */
+#scrollTop {
+    display: block;
+    position: fixed;
+    bottom: 110px; /* 브라우저 아래쪽 끝에서부터의 거리 */
+    right: 15px; /* 브라우저 오른쪽 끝에서부터의 거리 */
+    cursor: pointer;
+    z-index: 99;
+    border: 1px;
+    border-style: solid;
+}
+
+/* DOWN 버튼 */
+#scrollDown {
+    display: block;
+    position: fixed;
+    bottom: 20px; /* 브라우저 아래쪽 끝에서부터의 거리 */
+    right: 15px; /* 브라우저 오른쪽 끝에서부터의 거리 */
+    cursor: pointer;
+    z-index: 99;
+    border: 1px;
+    border-style: solid;
+}
